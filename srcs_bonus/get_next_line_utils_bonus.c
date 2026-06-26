@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line_utils.c                              :+:      :+:    :+:   */
+/*   get_next_line_utils_bonus.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cgorin <cgorin@student.42nice.fr>          +#+  +:+       +#+        */
+/*   By: cgorin <cgorin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/11 00:21:37 by cgorin            #+#    #+#             */
-/*   Updated: 2024/05/12 18:45:21 by cgorin           ###   ########.fr       */
+/*   Created: 2024/05/17 20:10:34 by cgorin            #+#    #+#             */
+/*   Updated: 2026/06/26 18:54:55 by cgorin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../includes/get_next_line_bonus.h"
 
 size_t	ft_strlen(char const *s)
 {

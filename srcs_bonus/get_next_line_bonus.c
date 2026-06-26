@@ -6,11 +6,11 @@
 /*   By: cgorin <cgorin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/17 20:07:52 by cgorin            #+#    #+#             */
-/*   Updated: 2024/05/17 20:09:29 by cgorin           ###   ########.fr       */
+/*   Updated: 2026/06/26 19:16:19 by cgorin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../includes/get_next_line_bonus.h"
 
 static char	*ft_join(char *buffer, char *buf)
 {
@@ -31,7 +31,6 @@ static char	*read_file(int fd, char *buf)
 	buffer = ft_calloc(sizeof(char), (BUFFER_SIZE + 1));
 	if (!buffer)
 		return (free(buffer), buffer = NULL);
-	count_read = 1;
 	count_read = read(fd, buffer, BUFFER_SIZE);
 	while (count_read > 0)
 	{
